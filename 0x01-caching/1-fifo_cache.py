@@ -4,7 +4,7 @@ from base_caching import BaseCaching
 
 
 class FIFOCache(BaseCaching):
-    """ Function class that inherits from BaseCaching and is a caching system """
+    """ Funct class that inherits from BaseCaching and is a caching system """
     def __init__(self):
         super().__init__()
         self.data = {}
