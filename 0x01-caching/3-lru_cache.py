@@ -4,7 +4,7 @@ from base_caching import BaseCaching
 
 
 class LRUCache(BaseCaching):
-    """ Class function that inherits from BaseCaching and is a caching system """
+    """ function that inherits from BaseCaching and is a caching system """
     def __init__(self):
         super().__init__()
         self.head, self.tail = '-', '='
